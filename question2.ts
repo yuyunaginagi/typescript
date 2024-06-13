@@ -1,6 +1,6 @@
-const ProductType = {
-  beverage: 0,
-  food:     1,
-  books:    2,
+enum ProductType = {
+  beverage,
+  food,
+  books,
 }
-console.log(ProductType.beverage)
+console.log(Product.beverage)
